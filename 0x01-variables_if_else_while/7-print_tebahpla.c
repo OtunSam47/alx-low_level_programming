@@ -1,6 +1,6 @@
 /*
  * File: 7-print_tebahpla.c
- * Auth: Samuel Otun  
+ * Auth: Samuel Otun
 */
 
 #include <stdio.h>
