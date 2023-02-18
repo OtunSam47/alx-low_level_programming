@@ -9,7 +9,10 @@
 #include <stdio.h>
 
 
-/* betty style doc for function main goes there */
+/* 
+ *The variable n will store a different value every time you will run this program
+ *
+ * */
 int main(void)
 {
 	int n;
