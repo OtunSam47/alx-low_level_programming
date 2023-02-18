@@ -6,20 +6,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible combinations of single-digit numbers.
+ * main - Prints all possible combinations of single-digit digbers.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num;
+	int dig;
 
-	for (num = 0; num <= 9; num++)
+	for (dig = 0; dig <= 9; dig++)
 	{
-		putchar((num % 10) + '0');
-		if (num == 9)
+		putchar((dig % 10) + '0');
+		if (dig == 9)
 			continue;
-		
+
 		putchar(',');
 		putchar(' ');
 	}
