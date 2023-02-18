@@ -9,8 +9,9 @@
 #include <stdio.h>
 
 
-/* 
- *The variable n will store a different value every time you will run this program
+/**
+ *main : The variable n will store a different value
+ *	 every time you will run this program
  *
  * */
 int main(void)
