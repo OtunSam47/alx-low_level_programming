@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - Write a function that multiplies two integers.
- * @a and @b: The characters to be checked.
- *
- * Return: 0
+ * mul - Write a function that multiplies two integers.
+ * @a: The first integer to be checked.
+ * @b: The second integer to be checked.
+ * 
+ * Return: 0.
  */
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
