@@ -9,14 +9,8 @@ void print_most_numbers(void)
 
 	for (dig = 0; dig <= 9; dig++)
 	{
-		if (dig = 2 || dig = 4)
-		{
-			continue;
-		}
-		else
-		{
+		if (dig != 2 && dig != 4)
 			_putchar((dig % 10) + '0');
-		}
 	}
 
 	_putchar('\n');
