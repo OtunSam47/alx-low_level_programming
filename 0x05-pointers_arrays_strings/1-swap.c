@@ -5,7 +5,7 @@
  *
  * @a: the first integer
  * @b: the second integer
- * 
+ *
  * Return: void.
  */
 
