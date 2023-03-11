@@ -1,2 +1,2 @@
-This file is for static libraries.
+This README.md file is for static libraries.
 
