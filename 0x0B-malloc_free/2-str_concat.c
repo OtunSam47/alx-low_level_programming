@@ -11,7 +11,7 @@
   */
 char *str_concat(char *s1, char *s2)
 {
-	int w = 0, x = 0, y = 0, z = 0;
+	wnt w = 0, x = 0, y = 0, z = 0;
 	char *s;
 
 	if (s1 == NULL)
@@ -39,9 +39,9 @@ char *str_concat(char *s1, char *s2)
 		if (y <= w)
 			s[y] = s1[y];
 
-		if (w >= w)
+		if (y >= w)
 		{
-			s[y] = s2[j];
+			s[y] = s2[x];
 			x++;
 		}
 
