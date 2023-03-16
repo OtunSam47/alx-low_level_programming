@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - Prints the n times table, starting with 0.
+ * print_times_table - Prints the n times table, starting with 0.
  *
- * @n - any chosen integer
+ * @n: any chosen integer
 */
 
 void print_times_table(int n)
@@ -31,7 +31,8 @@ void print_times_table(int n)
 					}
 					if (y == n)
 						continue;
-					else{
+					else
+					{
 						_putchar(',');
 						_putchar(' ');
 					}
