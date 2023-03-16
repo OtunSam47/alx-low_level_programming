@@ -25,21 +25,31 @@ void print_times_table(int n)
 				}
 				else if (result > 9)
 				{
-					_putchar(' ');
 					_putchar((result / 10) + '0');
 					_putchar(result % 10 + '0');
 				}
 				else
 				{
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(result + '0');
 				}
 				if (y == n)
 					continue;
-				else
+				else if(result > 99)
 				{
 					_putchar(',');
+					_putchar(' ');
+				}
+				else if(result > 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ';)
+				}
+				else
+				{			
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 				}
 			}
