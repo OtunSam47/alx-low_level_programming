@@ -32,7 +32,7 @@ void print_times_table(int n)
 					{
 						_putchar(' ');
 						_putchar(' ');
-						printf('0' + result);
+						_putchar('0' + result);
 					}
 					if (y == n)
 						continue;
