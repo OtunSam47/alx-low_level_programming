@@ -10,24 +10,29 @@ void print_times_table(int n)
 {
 	if ((n < 15) && n >= 0)
 	{
-		int x, y, result;
-		
+		int x, y, result;	
 		for (x = 0; x <= n; x++)
 		{
 			for (y = 0; y <= n; y++)
 				{
 					result = x * y;
 					if (result > 99)
-						printf("%d", result);
+					{
+						_putchar(result / 100 + '0');
+						_putchar(((result % 100) / 10) + '0');
+						_putchar(result % 10 + '0');
+					}
 					else if (result > 9)
 					{
 						_putchar(' ');
-						printf("%d", result);
+						_putchar(((result / 10) + '0');
+						_putchar(result % 10 + '0');
 					}
 					else
 					{
 						_putchar(' ');
-						printf(" %d", result);
+						_putchar(' ');
+						printf('0' + result);
 					}
 					if (y == n)
 						continue;
