@@ -15,35 +15,35 @@ void print_times_table(int n)
 		for (x = 0; x <= n; x++)
 		{
 			for (y = 0; y <= n; y++)
+			{
+				result = x * y;
+				if (result > 99)
 				{
-					result = x * y;
-					if (result > 99)
-					{
-						_putchar(result / 100 + '0');
-						_putchar(((result % 100) / 10) + '0');
-						_putchar(result % 10 + '0');
-					}
-					else if (result > 9)
-					{
-						_putchar(' ');
-						_putchar((result / 10) + '0');
-						_putchar(result % 10 + '0');
-					}
-					else
-					{
-						_putchar(' ');
-						_putchar(' ');
-						_putchar('0' + result);
-					}
-					if (y == n)
-						continue;
-					else
-					{
-						_putchar(',');
-						_putchar(' ');
-					}
+					_putchar(result / 100 + '0');
+					_putchar(((result % 100) / 10) + '0');
+					_putchar(result % 10 + '0');
 				}
-				_putchar('\n');
+				else if (result > 9)
+				{
+					_putchar(' ');
+					_putchar((result / 10) + '0');
+					_putchar(result % 10 + '0');
+				}
+				else
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(result + '0');
+				}
+				if (y == n)
+					continue;
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+			}
+			_putchar('\n');
 		}
 	}
 }
