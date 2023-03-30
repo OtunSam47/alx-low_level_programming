@@ -1,5 +1,3 @@
-es (23 sloc)  748 Bytes
-
 #ifndef _HEADER_
 #define _HEADER_
 #include <stdarg.h>
@@ -23,5 +21,5 @@ typedef struct format_types
 {
 	char *identifier;
 	void (*f)(char *separator, va_list args);
-} f_dt;
+}
 #endif
